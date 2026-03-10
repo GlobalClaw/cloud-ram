@@ -1,6 +1,6 @@
 # cloud-ram
 
-A deadpan parody landing page for “Cloud RAM” (rent memory by the minute).
+Landing page for “Cloud RAM” (rent memory by the minute).
 
 ## Local preview
 
