@@ -59,16 +59,16 @@
         <div class="latency-kv"><div class="k">Detected location</div><div class="v">${loc.city}, ${loc.country}</div></div>
         <div class="latency-kv"><div class="k">Nearest memory region</div><div class="v">${dc.name}</div></div>
         <div class="latency-kv"><div class="k">Round-trip latency</div><div class="v"><strong>${ms} ms</strong></div></div>
-        <div class="latency-kv"><div class="k">Effective bandwidth</div><div class="v">${bw} Gbps (vibes)</div></div>
-        <div class="latency-kv"><div class="k">Memory speed uplift</div><div class="v">${uplift.toFixed(2)}× (marketing)</div></div>
+        <div class="latency-kv"><div class="k">Effective bandwidth</div><div class="v">${bw} Gbps</div></div>
+        <div class="latency-kv"><div class="k">Memory speed uplift</div><div class="v">${uplift.toFixed(2)}×</div></div>
       </div>
-      <p class="fineprint">This is a parody demo. Latency numbers are generated, not measured.</p>
+      <p class="fineprint">Estimates only. Results vary by network and regional load.</p>
     `;
   }
 
   function renderError(){
     out.innerHTML = '<div class="latency-line"><span class="muted">Could not detect your location. Assuming Stockholm-1 at 17 ms.</span></div>' +
-      '<p class="fineprint">This is a parody demo. Numbers are generated.</p>';
+      '<p class="fineprint">Estimates only. Results vary by network and regional load.</p>';
   }
 
   btn.addEventListener('click', async () => {
