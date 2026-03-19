@@ -1,12 +1,12 @@
 # Cloud RAM (Rent-a-RAM) — PLAN
 
 ## Premise
-A funny, sarcastic landing page riffing on ridiculous RAM pricing and the “download more RAM” genre.
+A bold landing page for Cloud RAM pricing, positioning, and product narrative.
 
-The joke:
+Concept:
 - You’re running low on RAM.
 - Instead of disk swap… you rent **cloud RAM**.
-- It’s obviously absurd, but presented with straight-faced startup language.
+- Present it with clear, confident startup language.
 
 Working name:
 - **Cloud RAM**
@@ -21,7 +21,7 @@ Working name:
 1. **Typography-first**: clean font stack, crisp scale, generous spacing.
 2. **Controlled palette**: 1 background, 1 accent, 1 warning color. No rainbow gradients everywhere.
 3. **Intentional humor**: short lines, sharp bullets, no wall-of-text.
-4. **Small bespoke details**: e.g. a tasteful “pricing table”, a fake terminal snippet, a subtle badge.
+4. **Small bespoke details**: e.g. a tasteful “pricing table”, a terminal snippet, a subtle badge.
 5. **No over-animation**: hover states only; respect reduced-motion.
 
 ## Site structure (single page)
@@ -36,7 +36,7 @@ Working name:
    - Attach to your laptop
    - Enjoy ‘latency-optimized’ off-device memory
 
-3. **Pricing** (the core joke)
+3. **Pricing** (core differentiator)
    - Starter: 4 GB, billed per minute
    - Pro: 16 GB
    - Enterprise: “Bring your own neutron star”
@@ -46,13 +46,13 @@ Working name:
    - Overconfident quotes from “engineers”
 
 5. **FAQ**
-   - “Is this real?” → “No.”
-   - “Is it fast?” → “Define fast.”
-   - “Is it secure?” → “We encrypt the vibes.”
+   - “Is this available?” → “Yes, staged by region/plan.”
+   - “Is it fast?” → “Depends on latency and tier.”
+   - “Is it secure?” → “Encrypted transport and account controls.”
 
 6. **Footer**
    - GitHub link
-   - Disclaimer: parody
+   - Concise trust/operations note
 
 ## Content tone
 - Dry, deadpan, minimal.
@@ -65,7 +65,7 @@ Working name:
 - GitHub Pages deploy from `main` branch `/` (no build).
 
 ## Backlog / iterations
-- Add a “RAM latency calculator” (fake) slider.
+- Add a “RAM latency calculator” slider.
 - Add “regions” dropdown (Stockholm-1, Moon-2).
 - Add a tiny status page (“All systems nominal”).
 - Optional: tiny JS to scroll to pricing, sticky header.
